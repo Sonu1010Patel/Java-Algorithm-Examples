@@ -25,7 +25,7 @@ public class JavaMySQLExample {
 		try {
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("Loaded driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/example","root","toor101");	//Connect to database
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/example","root","toor");	//Connect to database
             System.out.println("Connected to MySQL");
             
             Statement stmt = conn.createStatement();										//Select all data from table "sizes"
